@@ -138,7 +138,6 @@
     <div class="hero-body">
       <a href="./static/images/teaser.gif"><img src = "./static/images/teaser.gif" height="100%"></img></a><br>
     </div>
-
     <p style="text-align: justify; margin-inline: 5% 5%;"> 
       We present GSD, a diffusion model approach based on Gaus- sian Splatting (GS) representation for 3D object reconstruction from a single view. Prior works suffer from inconsistent 3D geometry or mediocre rendering quality due to improper representations. We take a step to- wards resolving these shortcomings by utilizing the recent state-of-the- art 3D explicit representation, Gaussian Splatting, and an unconditional diffusion model. This model learns to generate 3D objects represented by sets of GS ellipsoids. With these strong generative 3D priors, though learning unconditionally, the diffusion model is ready for view-guided re- construction without further model fine-tuning. This is achieved by prop- agating fine-grained 2D features through the efficient yet flexible splat- ting function and the guided denoising sampling process. In addition, a 2D diffusion model is further employed to enhance rendering fidelity, and improve reconstructed GS quality by polishing and re-using the rendered images. The final reconstructed objects explicitly come with high-quality 3D structure and texture, and can be efficiently rendered in arbitrary views. Experiments on the challenging real-world CO3D dataset demon- strate the superiority of our approach.
     </p>
@@ -159,12 +158,8 @@
       </video>
       <span style="font-size:12px">* This video contains audio.</span>
     </div> -->
-    
   </div>
 </section>
-
-
-
 <section class="section is-light is-small">
   <div class="container is-max-desktop">
     <center><h2 class="title is-3">Approach Overview</h2></center>
@@ -173,12 +168,9 @@
     </div>
   </div>
     <!--/ Abstract. -->
-
 </section>
-
 <section class="section">
   <div class="container is-max-desktop">
-
     <center><h2 class="title is-3">View Consistency from 3D GS Modeling</h2></center><br>
     <div class="content has-text-centered">
       <video id="replay-video"
@@ -188,17 +180,15 @@
              muted
              preload
              playsinline
-             width="85%">
+             width="100%">
         <source src="./static/video/viewconsistency.mp4#t=0.01"
                 type="video/mp4">
       </video>
     </div>
   </div>
 </section>
-
 <section class="section">
   <div class="container is-max-desktop">
-
     <center><h2 class="title is-3">3D Geometry from 3D GS Modeling</h2></center><br>
     <div class="content has-text-centered">
       <video id="replay-video"
@@ -208,14 +198,13 @@
              muted
              preload
              playsinline
-             width="85%">
+             width="100%">
         <source src="./static/video/3dpoint.mp4#t=0.01"
                 type="video/mp4">
       </video>
     </div>
   </div>
 </section>
-
 <section class="hero is-small is-light">
   <center><h2 class="title is-3">Real-World Single View Reconstruction on CO3D</h2></center>
   <div class="hero-body">
@@ -319,7 +308,7 @@
              muted
              preload
              playsinline
-             width="85%">
+             width=100%>
         <source src="./static/video/flexview.mp4#t=0.01"
                 type="video/mp4">
       </video>
@@ -339,7 +328,7 @@
              muted
              preload
              playsinline
-             width="85%">
+             width="100%">
         <source src="./static/video/oo3d.mp4#t=0.01"
                 type="video/mp4">
       </video>
